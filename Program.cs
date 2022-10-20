@@ -90,12 +90,23 @@ if (num1 > num2)
  }
  */
 
-// все четные числа в диапазоне 0 - N
+// все четные числа в диапазоне 1 - N
 
-Console.WriteLine("Введите число");
+Console.WriteLine("Введите длинну ");
 int num = Convert.ToInt32(Console.ReadLine());
-int i = 1
+int i = 1;
+if (1 == 1)
+{
+    i = i +1;
+}
+
+Console.WriteLine($"четные числа от 1 до {num}: "); 
+
 while (i <= num)
+{
+    Console.Write(i); 
+   i= i +2;
+}
 
 
 
