@@ -94,18 +94,22 @@ if (num1 > num2)
 
 Console.WriteLine("Введите длинну ");
 int num = Convert.ToInt32(Console.ReadLine());
-int i = 1;
-if (1 == 1)
+int i = 2;
+
+if (num==1)
 {
-    i = i +1;
+   Console.WriteLine("Чётных чисел нет "); 
 }
 
+else
+{
 Console.WriteLine($"четные числа от 1 до {num}: "); 
 
 while (i <= num)
 {
     Console.Write(i); 
-   i= i +2;
+    i= i+2;
+}
 }
 
 
