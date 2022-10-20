@@ -15,11 +15,11 @@ Console.WriteLine($"число {num}  не является  четным");
 
 
 /*
-// Определение большего и меньшего числа3
+// Определение большего и меньшего числа
 
 Console.WriteLine("Введите первое число");
 int num1 = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите  число");
+Console.WriteLine("Введите второе число");
 int num2 = Convert.ToInt32(Console.ReadLine());
  if (num1 > num2)
  {
@@ -43,7 +43,7 @@ int num2 = Convert.ToInt32(Console.ReadLine());
 
  Console.WriteLine("Введите первое число");
 int num1 = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите  число");
+Console.WriteLine("Введите  второе число");
 int num2 = Convert.ToInt32(Console.ReadLine());
  if (num1 > num2)
  {
